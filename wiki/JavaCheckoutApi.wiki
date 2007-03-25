@@ -23,3 +23,18 @@ These APIs are described in more detail here:  [http://code.google.com/apis/chec
 
 The outgoing APIs are the *Checkout API* and the *Order Processing API*.  The diagram describes the structure of these interfaces.
 
+http://google-checkout-java-sample-code.googlecode.com/files/API_Design_Outgoing_Messages.gnp
+
+== Incoming APIs ==
+
+The incoming APIs are the *Merchant Calculations API* and the *Notifications API*.  The diagram describes the structure of these interfaces.
+
+http://google-checkout-java-sample-code.googlecode.com/files/API_Design_Incoming_Messages.gnp
+
+
+== Design Notes ==
+
+  * The MerchantConstants interface is designed to provide the implementation classes with the details they need to identify the merchant to Google.
+  * The design was done with Dependency Injection in mind - indeed the reference implementation will use Constructor based DI to provide an instance of the MerchantConstants interface for each request.
+
+More information is available in the JavaDocs, which are available on the downloads page.
