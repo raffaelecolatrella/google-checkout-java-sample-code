@@ -1,0 +1,9 @@
+#summary An overview of the design off the Java Checkout API.
+
+= Introduction =
+
+This page describes the design decisions which were taken when designing the Java Checkout API classes.
+
+= Details =
+
+
