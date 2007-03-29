@@ -36,5 +36,6 @@ http://google-checkout-java-sample-code.googlecode.com/files/API_Design_Incoming
 
   * The MerchantConstants interface is designed to provide the implementation classes with the details they need to identify the merchant to Google.
   * The design was done with Dependency Injection in mind - indeed the reference implementation will use Constructor based DI to provide an instance of the MerchantConstants interface for each request.
+  * The incoming APIs are not strongly typed as yet - they simply take Strings and return Strings.  This is beign worked on.
 
 More information is available in the Java Docs, which are available on the downloads page.
