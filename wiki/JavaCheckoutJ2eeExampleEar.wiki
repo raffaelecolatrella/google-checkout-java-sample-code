@@ -10,7 +10,7 @@ This page describes how to install the J2EE app.
 Here is how to install the J2EE app on JBoss.  Refer to your server documentation for equivalent instructions for other servers.
 
   * Configure the JMS queue
-    * 
+    * Create a new JMS queue called GoogleCheckoutInbox here: $JBOSS_HOME/server/default/deploy/jms/jbossmq-destinations-service.xml.
 
   * Install the application
     * Download the Ear from the downloads page.
