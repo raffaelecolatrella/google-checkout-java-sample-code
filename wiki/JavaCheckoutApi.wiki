@@ -9,13 +9,13 @@ This page describes the design decisions which were taken when designing the Jav
 The Google Checkout API falls in to 4 categories.
 
 
-*Checkout API*  This API allows the developer to post shopping carts to Google.  
+  * *Checkout API*  This API allows the developer to post shopping carts to Google.  
 
-*Merchant Calculations API*  This API is a callback from Google to the merchant in order to calculate complex tax and shipping rules in real time.
+  * *Merchant Calculations API*  This API is a callback from Google to the merchant in order to calculate complex tax and shipping rules in real time.
 
-*Notifications API* This API is a callback from Google to the merchant in order to provide status updates for an order.
+  * *Notifications API* This API is a callback from Google to the merchant in order to provide status updates for an order.
 
-*Order Processing API*  This API allows the developer to send processing instructions pertinent to an order to Google.
+  * *Order Processing API*  This API allows the developer to send processing instructions pertinent to an order to Google.
 
 These APIs are described in more detail here:  [http://code.google.com/apis/checkout/developer/index.html Google Checkout API]
 
