@@ -1,0 +1,19 @@
+#summary An example web application built using the JavaCheckoutRefImpl.
+
+= Introduction =
+
+This page describes how to install the web app.
+
+
+= Details =
+
+Here is how to install the web app on JBoss.  Refer to your server documentation for equivalent instructions for other servers.
+
+  * Download the War from the downloads page.
+  * Drop it into the $JBOSS_HOME/server/default/deploy.
+  * Download the properties file from the downloads page.
+  * Edit it to reflect your merchant account details.
+  * Drop it somewhere on the server classpath - e.g. $JBOSS_HOME/server/default/conf.
+  * Start the server and navigate to http://server:port/checkout.
+
+Enjoy!
