@@ -1,4 +1,4 @@
-#summary An overview of the design off the Java Checkout API.
+#summary An overview of the design off the JavaCheckoutAPI.
 
 = Introduction =
 
