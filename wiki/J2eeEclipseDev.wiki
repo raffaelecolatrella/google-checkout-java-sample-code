@@ -72,3 +72,7 @@ Run.
   * Select JavaCheckoutJ2eeExampleEar right click
   * Run As -> Run on server
   * Select the server setup earlier.
+
+Open a browser, go to
+
+  * http://localhost:8080/checkout 
