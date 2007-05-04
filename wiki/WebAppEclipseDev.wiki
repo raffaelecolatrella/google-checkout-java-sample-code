@@ -65,3 +65,16 @@ Run.
 Open a browser, go to
 
   * http://localhost:8080/checkout 
+
+If you wish to run the unit tests then please complete the following steps.
+
+Right click on JavaCheckoutRefImpl and select properties.
+
+  * Java Build Path -> Source.  Add the test directory to the list.
+  * Java Build Path -> Libraries.  Add the JUnit and XmlUnit jars.
+
+See: http://www.junit.org and http://xmlunit.sourceforge.net/
+
+Right click on com.google.checkout.CheckoutTestSuite
+
+  * Run As -> Unit Test.
