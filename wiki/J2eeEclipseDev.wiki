@@ -67,3 +67,8 @@ Project -> Clean.
 
   * Clean all projects.
 
+Run.
+
+  * Select JavaCheckoutJ2eeExampleEar right click
+  * Run As -> Run on server
+  * Select the server setup earlier.
