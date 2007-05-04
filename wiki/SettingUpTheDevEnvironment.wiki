@@ -1,0 +1,7 @@
+#summary How to setup your development environment.
+
+This page is intended for people who want to check out the source code from the SVN repository directly.  If you are looking for instructions on deploying the pre-built jars, to here: 
+
+|| || Eclipse || Net Beans ||
+||J2EE Example || J2eeEclipseDev || J2eeNetBeansDev ||
+||Web App Example || WebAppEclipseDev || WebAppNetBeansDev || 
