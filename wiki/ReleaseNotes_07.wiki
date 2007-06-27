@@ -1,0 +1,7 @@
+#summary Release Notes for Version 0.7
+
+Here is a summary of the changes for the 0.7 version.
+
+  * Support for the <calculation-mode> tag.
+
+  * Several bug fixes.
