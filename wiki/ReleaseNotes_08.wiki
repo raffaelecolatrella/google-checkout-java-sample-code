@@ -2,8 +2,4 @@
 
 Here is a summary of the changes for the 0.8 version.
 
-  * Support for the <address-filters> tag.
-
-  * Fixes a problem with submitting high ASCII characters.
-
-  * Some other small bug fixes.
+  * Fixes a bug where some processing requests were sent to Sandbox not production.
